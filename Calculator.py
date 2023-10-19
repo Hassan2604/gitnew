@@ -14,7 +14,7 @@ def sub(num1, num2):
 def mul(num1, num2):
     return num1 * num2
 
-def div(num1, num2):
+def divide(num1, num2):
     return num1 / num2
 
 print("What operation do you want to perform?")
@@ -39,4 +39,4 @@ elif user_choice == "2":
 elif user_choice == "3":
     print(mul(num1, num2))
 elif user_choice == "4":
-    print(div(num1, num2))
+    print(divide(num1, num2))
