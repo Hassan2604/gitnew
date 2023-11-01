@@ -1,7 +1,7 @@
-def get_user_input(prompt):
+def get_user_input(text):
     while True:
         try:
-            user_input = input(prompt)
+            user_input = input(text)
             return int(user_input)
         except ValueError:
             print("Invalid input. Please enter a number.")
